@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('path/to/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: bold;
+    
+}
+@font-face {
+    font-family: 'InterLight';
+    src: url(../fonts/inter/Inter-Light.ttf) format('truetype');
+    font-weight: lighter;
+    
+}
+body{
+    margin: 30px;
+    margin-top: 10px;
+    color:#454447;
+    background-color: #F5F2EB;
+    font-family: 'InterLight', sans-serif;
+    
+}   
+
+.nav h1{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 2px;
+    
+}
+.menu {
+    text-align: right;
+    margin-left: 20px; 
+    font-family: 'InterLight';
+    line-height: 0.1;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #454447;
+    text-decoration: none;
+}
+
+.nav a{
+    color:#454447;
+}
