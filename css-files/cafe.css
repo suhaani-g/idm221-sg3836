@@ -55,6 +55,23 @@ a:visited{
     color:#454447;
 }
 
+.line{
+    border-top: 2px solid #454447; 
+    
+}
+
+.footer{
+    background-color:#454447;
+    color:white;
+    width: 100%;
+    
+}
+
+.footer p{
+    margin: 30px;
+    font-family: 'InterLight';
+}
+
 
 
 
@@ -79,3 +96,4 @@ a:visited{
     max-width: 85%;
     max-height: 85%;
 }
+

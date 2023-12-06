@@ -11,7 +11,7 @@
     
 }
 body{
-    margin: 30px;
+    
     margin-top: 10px;
     color:#454447;
     background-color: #F5F2EB;
@@ -33,6 +33,7 @@ body{
     font-family: 'Inter', sans-serif;
     padding-bottom: 50px;
     padding-top: 2px;
+    margin: 30px;
     
 }
 .menu {
@@ -54,3 +55,51 @@ a:visited{
 .nav a{
     color:#454447;
 }
+
+.line{
+    border-top: 2px solid #454447; 
+    
+}
+
+.footer{
+    background-color:#454447;
+    color:white;
+    width: 100%;
+    
+}
+
+.footer p{
+    margin: 30px;
+    font-family: 'InterLight';
+}
+
+.resume{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.contact h2{
+    font-family: 'InterBold';
+    color: #33326D;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+
+.skills h3{
+    font-family: 'InterBold';
+    color: #33326D;
+    text-align: center;
+}
+.skills{
+    text-align: center;
+}
+
+.experience h3{
+    font-family: 'InterBold';
+    color: #33326D;
+    text-align: center;
+}
+
