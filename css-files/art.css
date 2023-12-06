@@ -71,3 +71,39 @@ a:visited{
     margin: 30px;
     font-family: 'InterLight';
 }
+
+.art1 img{
+    width: 100%;
+    height:100%;
+}
+
+.art2 img{
+    width: 100%;
+    height:100%;
+}
+
+.art3 img{
+    width: 100%;
+    height:100%;
+}
+
+.art4 img{
+    width: 100%;
+    height:100%;
+}
+
+.art5 img{
+    width: 100%;
+    height:100%;
+}
+
+.art6 img{
+    width: 100%;
+    height:100%;
+}
+
+.title h2{
+    font-family: 'InterBold';
+    color:#33326D;
+    text-align: center;
+}
