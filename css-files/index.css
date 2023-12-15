@@ -1,3 +1,6 @@
+/* Fonts */
+
+
 @font-face {
     font-family: 'InterBold';
     src: url('../inter/Inter-Bold.ttf') format('truetype');
@@ -34,6 +37,10 @@
     font-weight: lighter;
     
 }
+
+
+/* Menu/Nav */
+
 body{
     margin: 0px;
     margin-top: 10px;
@@ -67,6 +74,8 @@ body{
     font-family: 'RobotoLight', sans-serif;
 }
 
+/* Links */
+
 a{
     text-decoration: none;
     color: #33326D;
@@ -81,12 +90,15 @@ a:visited{
     color:#454447;
 }
 
+/* Line */
+
 .line{
     border-top: 2px solid #454447; 
     margin-bottom: 50px;
 }
 
 
+/* Project Images */
 
 
 .project1 img{
@@ -109,6 +121,8 @@ a:visited{
     margin-bottom: 70px;
 }
 
+/* Intro Text */
+
 .intro{
     line-height: 0.5;
     padding-bottom: 30px;
@@ -122,6 +136,8 @@ a:visited{
     font-size: 30px;
     font-family: 'InterBold', sans-serif;
 }
+
+/* Project Title Links */
 
 .project1 a{
     font-family: 'RobotoBoldI';
@@ -137,6 +153,8 @@ a:visited{
     font-family: 'RobotoBoldI';
     margin: 30px;
 }
+
+/* Footer */
 
 .footer{
     background-color:#201E39;

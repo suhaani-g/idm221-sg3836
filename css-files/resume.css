@@ -1,3 +1,6 @@
+
+/* Fonts */
+
 @font-face {
     font-family: 'InterBold';
     src: url('../inter/Inter-Bold.ttf') format('truetype');
@@ -36,6 +39,7 @@
 }
 
 
+/* Menu/Nav */
 
 
 body{
@@ -72,6 +76,9 @@ body{
     line-height: 0.1;
 }
 
+
+/* Links */
+
 a{
     text-decoration: none;
 }
@@ -85,10 +92,16 @@ a:visited{
     color:#454447;
 }
 
+
+/* Line */
+
 .line{
     border-top: 2px solid #454447; 
     margin-bottom: 50px;
 }
+
+
+/* Footer */
 
 .footer{
     background-color:#201E39;
@@ -101,6 +114,9 @@ a:visited{
     margin: 30px;
     font-family: 'InterLight';
 }
+
+
+/* Resume */
 
 .resume{
     margin-left: 50px;

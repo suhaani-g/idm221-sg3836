@@ -1,3 +1,5 @@
+/*Fonts*/
+
 @font-face {
     font-family: 'InterBold';
     src: url('../inter/Inter-Bold.ttf') format('truetype');
@@ -35,6 +37,7 @@
     
 }
 
+/* Menu/Nav */
 
 body{
     margin:0px;
@@ -69,6 +72,8 @@ body{
     line-height: 0.1;
 }
 
+/* Links */
+
 a{
     text-decoration: none;
 }
@@ -82,11 +87,16 @@ a:visited{
     color:#454447;
 }
 
+/* Line */
+
 .line{
     border-top: 2px solid #454447; 
     margin-bottom: 40px;
     
 }
+
+/* Footer */
+
 .footer{
     background-color:#201E39;
     color:white;
@@ -100,6 +110,7 @@ a:visited{
 }
 
 
+/* Project Images */
 
 
 .project2image1 img{
@@ -119,6 +130,8 @@ a:visited{
     max-height: 100%;
     margin-bottom: 80px;
 }
+
+/* Intro Text */
 
 .intro{
     margin: 30px;
