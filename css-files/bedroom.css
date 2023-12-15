@@ -10,6 +10,32 @@
     font-weight: lighter;
     
 }
+@font-face {
+    font-family: 'RobotoReg';
+    src: url('../inter/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../inter/RobotoMono-Light.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoBoldI';
+    src: url('../inter/RobotoMono-BoldItalic.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../inter/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+
+
 body{
     
     margin-top: 10px;
@@ -20,7 +46,7 @@ body{
 }   
 
 .nav h1{
-    font-family: 'Inter', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     text-transform: uppercase;
     letter-spacing: -2px;
     font-size: 50px;
@@ -39,7 +65,7 @@ body{
 .menu {
     text-align: right;
     margin-left: 20px; 
-    font-family: 'InterLight';
+    font-family: 'RobotoLight', sans-serif;
     line-height: 0.1;
 }
 
@@ -61,7 +87,7 @@ a:visited{
     
 }
 .footer{
-    background-color:#454447;
+    background-color:#201E39;
     color:white;
     width: 100%;
     

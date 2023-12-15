@@ -10,6 +10,30 @@
     font-weight: lighter;
     
 }
+@font-face {
+    font-family: 'RobotoReg';
+    src: url('../inter/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../inter/RobotoMono-Light.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoBoldI';
+    src: url('../inter/RobotoMono-BoldItalic.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../inter/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: lighter;
+    
+}
 body{
     margin: 0px;
     margin-top: 10px;
@@ -20,7 +44,7 @@ body{
 }   
 
 .nav h1{
-    font-family: 'InterBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     text-transform: uppercase;
     letter-spacing: -2px;
     font-size: 50px;
@@ -34,12 +58,13 @@ body{
     padding-bottom: 20px;
     padding-top: 2px;
     margin: 30px;
+    
 }
 .menu {
     text-align: right;
     margin-left: 20px; 
-    font-family: 'InterLight';
     line-height: 0.1;
+    font-family: 'RobotoLight', sans-serif;
 }
 
 a{
@@ -96,30 +121,32 @@ a:visited{
 }
 
 .project1 a{
-    font-family: 'InterBold';
+    font-family: 'RobotoBoldI';
     margin: 30px;
 }
 
 .project2 a{
-    font-family: 'InterBold';
+    font-family: 'RobotoBoldI';
     margin: 30px;
 }
 
 .moreart a{
-    font-family: 'InterBold';
+    font-family: 'RobotoBoldI';
     margin: 30px;
 }
 
 .footer{
-    background-color:#454447;
+    background-color:#201E39;
     color:white;
     width: 100%;
+    
     
 }
 
 .footer p{
     margin: 30px;
-    font-family: 'InterLight';
+    font-family: 'RobotoLight', sans-serif;
+
 }
 
 .myworks{
