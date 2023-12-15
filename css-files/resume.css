@@ -40,6 +40,7 @@
 
 body{
     
+    margin: 0px;
     margin-top: 10px;
     color:#454447;
     background-color: #EAEAEA;
@@ -86,7 +87,7 @@ a:visited{
 
 .line{
     border-top: 2px solid #454447; 
-    
+    margin-bottom: 50px;
 }
 
 .footer{

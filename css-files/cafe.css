@@ -43,7 +43,7 @@ body{
     color:#454447;
     background-color: #EAEAEA;
     font-family: 'InterLight', sans-serif;
-    
+    margin: 0px;
 }   
 
 .nav h1{
@@ -85,7 +85,8 @@ a:visited{
 
 .line{
     border-top: 2px solid #454447; 
-    
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .footer{
@@ -108,23 +109,26 @@ a:visited{
 .project1mock img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 30px;
 }
 
 .project1home img{
     width: 80%;
-    max-height: 40%;
+    max-height: 10%;
     align-content: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 .project1frame1 img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 30px;
 }
 
 .project1frame2 img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 30px;
 }
 
 .intro h3{
