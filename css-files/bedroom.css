@@ -37,7 +37,7 @@
 
 
 body{
-    
+    margin:0px;
     margin-top: 10px;
     color:#454447;
     background-color: #EAEAEA;
@@ -84,6 +84,7 @@ a:visited{
 
 .line{
     border-top: 2px solid #454447; 
+    margin-bottom: 40px;
     
 }
 .footer{
@@ -104,20 +105,25 @@ a:visited{
 .project2image1 img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 40px;
 }
 
 .project2image2 img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 40px;
 }
 
 .project2image3 img{
     width: 100%;
     max-height: 100%;
+    margin-bottom: 80px;
 }
 
 .intro{
     margin: 30px;
+    margin-bottom: 70px;
+    margin-top: 0px;
 }
 
 .intro h3{
